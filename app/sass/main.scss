@@ -1,3 +1,10 @@
+$font-path: '/fonts/';
+
+@import "fonts/open-sans";
+@import "fonts/museo-sans";
+@import "fonts/museo-slab";
+@import "fonts/pacifico";
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +22,7 @@ html,body {
   height: 100%;
 
   //box-sizing: content-box;
-  padding: 80px 0 0 160px;
+  padding-top: 0;
 
   float: left;
 

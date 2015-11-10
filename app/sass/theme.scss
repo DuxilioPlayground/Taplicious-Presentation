@@ -1,17 +1,21 @@
-$base-color: #474747;
+$base-color: #444444;
 $white: #f5f5f5;
 
-$grey-light: #e8e8e8;
-$grey: #a8a8a8;
+$grey-light: #F5F5F5;
+$grey: #D8D8D8;
+$grey-darker: darken($grey, 10%);
 
-$accent: lighten(#205081, 10%);
+$accent: #FA6441;
 $accent-dark: darken($accent, 5%);
+$accent-alt: #55B392;
 
-$body-family: "freight-sans-pro", "Museo-100";
-$body-weight: 100;
+$bg-color: $accent;
+
+$body-family: 'Museo Sans', 'Open Sans', Helvetica, Arial, sans-serif;
+$body-weight: 300;
 $body-line-height: 1.5em;
 
-$heading-weight: 100;
+$heading-weight: 300;
 $heading-line-height: 1.3em;
 
 $size-xs: .8em;
@@ -36,8 +40,8 @@ $opacity: .8;
 
 body {
 	font: $body-weight $size-m $body-family;
-	color: $base-color;
-	background-color: $white;
+	color: $white;
+	background-color: $bg-color;
 	line-height: $body-line-height;
 }
 
@@ -63,10 +67,6 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: $heading-weight;
 	margin-bottom: $margin-s;
 	line-height: $heading-line-height;
-
-	&.subtitle {
-		margin-bottom: $margin-m;
-	}
 
 	.ss-icon {
 		font-size: $size-s;
@@ -139,20 +139,7 @@ ul {
 }
 
 header {
-	h1,h2,h3,h4,h5,h6 {
-		margin-right: $margin-s;
-		display: inline-block;
-		border-bottom: $border-style $border-width $grey;
-	}
-
-	a {
-		font-size: $size-s;
-		font-style: italic;
-		color: $grey;
-
-		position: relative;
-		top: 8px;
-	}
+	
 }
 
 footer.footer {
@@ -161,13 +148,52 @@ footer.footer {
 
 	position: absolute;
 
-	left: 160px;
+	left: 80px;
 	bottom: $margin-m;
 
 	z-index: 99;
-	color: $grey;
+	color: rgba($white, .6);
 
 	a {
-		color: $grey;
+		color: rgba($white, .6);
 	}
+}
+
+.logo {
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+
+	img {
+		width: 100%;
+	}
+}
+
+.content--center {
+	text-align: center;
+
+	width: 100%;
+	height: 100%;
+	display: table;
+
+	margin-top: -1em;
+
+	&__cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+.iphone-img {
+	background-color: $white;
+	overflow: hidden;
+	
+	line-height: 0;
+	width: 300px;
+	margin: 0 auto;
+
+	img {
+		width: 100%;
+		margin: 0;
+	}	
 }

@@ -1,3 +1,89 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts//opensans/OpenSans-Light-webfont.eot");
+  src: url("/fonts//opensans/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//opensans/OpenSans-Light-webfont.woff") format("woff"), url("/fonts//opensans/OpenSans-Light-webfont.ttf") format("truetype"), url("/fonts//opensans/OpenSans-Light-webfont.svg#open_sanslight") format("svg");
+  font-weight: 100;
+  font-style: 100; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts//opensans/OpenSans-Regular-webfont.eot");
+  src: url("/fonts//opensans/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//opensans/OpenSans-Regular-webfont.woff") format("woff"), url("/fonts//opensans/OpenSans-Regular-webfont.ttf") format("truetype"), url("/fonts//opensans/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts//opensans/OpenSans-Italic-webfont.eot");
+  src: url("/fonts//opensans/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//opensans/OpenSans-Italic-webfont.woff") format("woff"), url("/fonts//opensans/OpenSans-Italic-webfont.ttf") format("truetype"), url("/fonts//opensans/OpenSans-Italic-webfont.svg#open_sansitalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts//opensans/OpenSans-Semibold-webfont.eot");
+  src: url("/fonts//opensans/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//opensans/OpenSans-Semibold-webfont.woff") format("woff"), url("/fonts//opensans/OpenSans-Semibold-webfont.ttf") format("truetype"), url("/fonts//opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts//opensans/OpenSans-bold-webfont.eot");
+  src: url("/fonts//opensans/OpenSans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//opensans/OpenSans-bold-webfont.woff") format("woff"), url("/fonts//opensans/OpenSans-bold-webfont.ttf") format("truetype"), url("/fonts//opensans/OpenSans-bold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Open Sans';
+  src: url("/fonts//opensans/OpenSans-extrabold-webfont.eot");
+  src: url("/fonts//opensans/OpenSans-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//opensans/OpenSans-extrabold-webfont.woff") format("woff"), url("/fonts//opensans/OpenSans-extrabold-webfont.ttf") format("truetype"), url("/fonts//opensans/OpenSans-extrabold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("/fonts//museo-sans/museosans_700-webfont.eot");
+  src: url("/fonts//museo-sans/museosans_700-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-sans/museosans_700-webfont.woff2") format("woff2"), url("/fonts//museo-sans/museosans_700-webfont.woff") format("woff"), url("/fonts//museo-sans/museosans_700-webfont.ttf") format("truetype"), url("/fonts//museo-sans/museosans_700-webfont.svg#museo_sans700") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("/fonts//museo-sans/museosans_900-webfont.eot");
+  src: url("/fonts//museo-sans/museosans_900-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-sans/museosans_900-webfont.woff2") format("woff2"), url("/fonts//museo-sans/museosans_900-webfont.woff") format("woff"), url("/fonts//museo-sans/museosans_900-webfont.ttf") format("truetype"), url("/fonts//museo-sans/museosans_900-webfont.svg#museo_sans900") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("/fonts//museo-sans/museosans-700italic-webfont.eot");
+  src: url("/fonts//museo-sans/museosans-700italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-sans/museosans-700italic-webfont.woff2") format("woff2"), url("/fonts//museo-sans/museosans-700italic-webfont.woff") format("woff"), url("/fonts//museo-sans/museosans-700italic-webfont.ttf") format("truetype"), url("/fonts//museo-sans/museosans-700italic-webfont.svg#museo_sans700_italic") format("svg");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("/fonts//museo-sans/museosans-900italic-webfont.eot");
+  src: url("/fonts//museo-sans/museosans-900italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-sans/museosans-900italic-webfont.woff2") format("woff2"), url("/fonts//museo-sans/museosans-900italic-webfont.woff") format("woff"), url("/fonts//museo-sans/museosans-900italic-webfont.ttf") format("truetype"), url("/fonts//museo-sans/museosans-900italic-webfont.svg#museo_sans900_italic") format("svg");
+  font-weight: 900;
+  font-style: italic; }
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("/fonts//museo-sans/museosans-300italic-webfont.eot");
+  src: url("/fonts//museo-sans/museosans-300italic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-sans/museosans-300italic-webfont.woff2") format("woff2"), url("/fonts//museo-sans/museosans-300italic-webfont.woff") format("woff"), url("/fonts//museo-sans/museosans-300italic-webfont.ttf") format("truetype"), url("/fonts//museo-sans/museosans-300italic-webfont.svg#museo_sans700_italic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("/fonts//museo-sans/museosans-300-webfont.eot");
+  src: url("/fonts//museo-sans/museosans-300-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-sans/museosans-300-webfont.woff2") format("woff2"), url("/fonts//museo-sans/museosans-300-webfont.woff") format("woff"), url("/fonts//museo-sans/museosans-300-webfont.ttf") format("truetype"), url("/fonts//museo-sans/museosans-300-webfont.svg#museo_sans900_italic") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on November 6, 2015 */
+@font-face {
+  font-family: 'Museo Slab';
+  src: url("/fonts//museo-slab/museo_slab_700-webfont.eot");
+  src: url("/fonts//museo-slab/museo_slab_700-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//museo-slab/museo_slab_700-webfont.woff2") format("woff2"), url("/fonts//museo-slab/museo_slab_700-webfont.woff") format("woff"), url("/fonts//museo-slab/museo_slab_700-webfont.ttf") format("truetype"), url("/fonts//museo-slab/museo_slab_700-webfont.svg#museo_slab700") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on November 6, 2015 */
+@font-face {
+  font-family: 'pacifico';
+  src: url("/fonts//pacifico/pacifico-webfont.eot");
+  src: url("/fonts//pacifico/pacifico-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts//pacifico/pacifico-webfont.woff2") format("woff2"), url("/fonts//pacifico/pacifico-webfont.woff") format("woff"), url("/fonts//pacifico/pacifico-webfont.ttf") format("truetype"), url("/fonts//pacifico/pacifico-webfont.svg#pacificoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +97,7 @@ html, body {
 .slide {
   width: 100%;
   height: 100%;
-  padding: 80px 0 0 160px;
+  padding-top: 0;
   float: left;
   display: none; }
   .slide .step {
@@ -26,16 +112,16 @@ html, body {
     display: block; }
 
 body {
-  font: 100 20px "freight-sans-pro", "Museo-100";
-  color: #474747;
-  background-color: #f5f5f5;
+  font: 300 20px "Museo Sans", "Open Sans", Helvetica, Arial, sans-serif;
+  color: #f5f5f5;
+  background-color: #FA6441;
   line-height: 1.5em; }
 
 p, img, ul, ol, img {
   margin-bottom: 25px; }
 
 a {
-  color: #474747; }
+  color: #444444; }
 
 small {
   font-size: 0.9em; }
@@ -43,14 +129,12 @@ small {
 pre {
   padding-top: 15px;
   padding-bottom: 15px;
-  border-left: 10px solid #2a69aa; }
+  border-left: 10px solid #FA6441; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 15px;
   line-height: 1.3em; }
-  h1.subtitle, h2.subtitle, h3.subtitle, h4.subtitle, h5.subtitle, h6.subtitle {
-    margin-bottom: 25px; }
   h1 .ss-icon, h2 .ss-icon, h3 .ss-icon, h4 .ss-icon, h5 .ss-icon, h6 .ss-icon {
     font-size: 0.9em;
     display: inline-block;
@@ -99,51 +183,73 @@ ul.inline li {
   .column.one-third {
     width: 29%; }
 
-header h1, header h2, header h3, header h4, header h5, header h6 {
-  margin-right: 15px;
-  display: inline-block;
-  border-bottom: solid 2px #a8a8a8; }
-header a {
-  font-size: 0.9em;
-  font-style: italic;
-  color: #a8a8a8;
-  position: relative;
-  top: 8px; }
-
 footer.footer {
   font-size: 0.8em;
   font-style: italic;
   position: absolute;
-  left: 160px;
+  left: 80px;
   bottom: 25px;
   z-index: 99;
-  color: #a8a8a8; }
+  color: rgba(245, 245, 245, 0.6); }
   footer.footer a {
-    color: #a8a8a8; }
+    color: rgba(245, 245, 245, 0.6); }
 
-.big {
+.logo {
+  width: 160px;
+  height: 160px;
+  overflow: hidden; }
+  .logo img {
+    width: 100%; }
+
+.content--center {
   text-align: center;
-  padding-top: 140px;
-  margin-left: -80px;
-  font-size: 1.3em; }
+  width: 100%;
+  height: 100%;
+  display: table;
+  margin-top: -1em; }
+  .content--center__cell {
+    display: table-cell;
+    vertical-align: middle; }
 
-.intro {
-  text-align: center;
-  padding-top: 140px;
-  margin-left: -80px; }
-  .intro h3 {
-    margin-bottom: 0;
-    border: none; }
-  .intro h1 {
-    font-size: 3.5em;
-    display: inline-block;
-    color: #2a69aa;
-    border-color: #2a69aa; }
+.iphone-img {
+  background-color: #f5f5f5;
+  overflow: hidden;
+  line-height: 0;
+  width: 300px;
+  margin: 0 auto; }
+  .iphone-img img {
+    width: 100%;
+    margin: 0; }
 
-.about .bg-img {
-  width: 400px;
-  position: absolute;
-  left: -80px;
-  bottom: 0; }
+.slide--padding {
+  padding: 80px 0 0 160px; }
+
+.slide--dark {
+  background-color: #222; }
+
+.slide--img {
+  background-color: #444444;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; }
+  .slide--img:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(68, 68, 68, 0.2); }
+
+.slide-intro {
+  background-image: url(/img/taplicious-table.jpg); }
+  .slide-intro .logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -80px 0 0 -80px; }
+  .slide-intro:before {
+    background-color: rgba(68, 68, 68, 0.2); }
 
 /*# sourceMappingURL=main.css.map */
