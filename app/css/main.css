@@ -132,6 +132,7 @@ pre {
   border-left: 10px solid #FA6441; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Museo Slab';
   font-weight: 300;
   margin-bottom: 15px;
   line-height: 1.3em; }
@@ -140,22 +141,22 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     margin-right: 25px; }
 
-h1 {
+h1, .h1 {
   font-size: 2.8em; }
 
-h2 {
+h2, .h2 {
   font-size: 2.4em; }
 
-h3 {
+h3, .h3 {
   font-size: 2em; }
 
-h4 {
+h4, .h4 {
   font-size: 1.6em; }
 
-h5 {
+h5, .h5 {
   font-size: 1.2em; }
 
-h6 {
+h6, .h6 {
   font-size: 1.1em; }
 
 ul, ol {
@@ -190,9 +191,9 @@ footer.footer {
   left: 80px;
   bottom: 25px;
   z-index: 99;
-  color: rgba(245, 245, 245, 0.6); }
+  color: rgba(245, 245, 245, 0.8); }
   footer.footer a {
-    color: rgba(245, 245, 245, 0.6); }
+    color: rgba(245, 245, 245, 0.8); }
 
 .logo {
   width: 160px;
@@ -207,6 +208,8 @@ footer.footer {
   height: 100%;
   display: table;
   margin-top: -1em; }
+  .content--center.content--center--no-correct {
+    margin-top: 0; }
   .content--center__cell {
     display: table-cell;
     vertical-align: middle; }
@@ -220,6 +223,15 @@ footer.footer {
   .iphone-img img {
     width: 100%;
     margin: 0; }
+
+.tag {
+  display: inline-block;
+  padding: .5em .7em;
+  font-family: 'Museo Slab';
+  background-color: #FA6441;
+  color: #f5f5f5;
+  line-height: 1em;
+  border-radius: .1em; }
 
 .slide--padding {
   padding: 80px 0 0 160px; }

@@ -64,6 +64,7 @@ pre {
 }
 
 h1,h2,h3,h4,h5,h6 {
+	font-family: 'Museo Slab';
 	font-weight: $heading-weight;
 	margin-bottom: $margin-s;
 	line-height: $heading-line-height;
@@ -75,22 +76,22 @@ h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-h1 {
+h1,.h1 {
 	font-size: 2.8em;
 }
-h2 {
+h2,.h2 {
 	font-size: 2.4em;
 }
-h3 {
+h3,.h3 {
 	font-size: 2em;
 }
-h4 {
+h4,.h4 {
 	font-size: 1.6em;
 }
-h5 {
+h5,.h5 {
 	font-size: 1.2em;
 }
-h6 {
+h6,.h6 {
 	font-size: 1.1em;
 }
 
@@ -152,10 +153,10 @@ footer.footer {
 	bottom: $margin-m;
 
 	z-index: 99;
-	color: rgba($white, .6);
+	color: rgba($white, .8);
 
 	a {
-		color: rgba($white, .6);
+		color: rgba($white, .8);
 	}
 }
 
@@ -178,6 +179,10 @@ footer.footer {
 
 	margin-top: -1em;
 
+	&.content--center--no-correct {
+		margin-top: 0;
+	}
+
 	&__cell {
 		display: table-cell;
 		vertical-align: middle;
@@ -195,5 +200,15 @@ footer.footer {
 	img {
 		width: 100%;
 		margin: 0;
-	}	
+	}
+}
+
+.tag {
+	display: inline-block;
+	padding: .5em .7em;
+	font-family: 'Museo Slab';
+	background-color: $accent;
+	color: $white;
+	line-height: 1em;
+	border-radius: .1em;
 }
